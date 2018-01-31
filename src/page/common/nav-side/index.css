@@ -1,0 +1,30 @@
+/*
+* @Author: Yanbiao
+* @Date:   2018-01-31 23:25:56
+* @Last Modified by:   Yanbiao
+* @Last Modified time: 2018-02-01 00:16:13
+*/
+
+.nav-side{
+	float:left;
+	width: 130px;
+	min-height: 100px;
+}
+
+.nav-side .nav-item{
+	line-height: 25px;
+	font-size: 13px;
+}
+
+.nav-side .nav-item .link{
+	color: #888;
+}
+
+.nav-side .nav-item.active .link{
+	color: #c60023;
+}
+
+.content.with-nav{
+	float:left;
+	width: 950px;
+}
